@@ -1,0 +1,6 @@
+//设置github代理服务器
+git config --global http.proxy web-proxy.sgp.hp.com:8080
+//重置代理
+git config --global --unset http.proxy
+//获取当前代理
+git config --global --get http.proxy
